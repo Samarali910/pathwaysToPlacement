@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer_container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+     
+}
+.medium_container{
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    padding: 40px;
+    
+ }
+ .medium_container h1{
+    color: green;
+    font-size: 600;
+ }
+ .medium_container P{
+    margin-top: 2px;
+    font-size: medium;
+ }
+ .inner_container{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 10px;
+ }
+  .input_width{
+    width: 100%;
+    padding: 4px;
+    font-size: medium;
+      color: green;
+  }
+  .topmargin{
+    margin-top: 8px;
+  }
+  .margintop{
+     margin-top: 8px;
+     
+  }
+  
+ select{
+    width: 100%;
+    padding: 4px;
+     
+ }
+ .Question{
+    margin-top: 8px;
+ }
+label{
+    display: block;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.circle_checkbox{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+         border: 2px solid;
+        outline: none;
+        cursor: pointer;
+        margin-top: 2px;
+}
+::placeholder{
+    color: green;
+}
+.circle_checkbox:checked{
+    background-color: #263ea5;
+}
+.age_content{
+    border: 2px solid #000;
+    height: 100px;
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    position: relative;
+}
+.age_content p{
+    display: inline-block;
+}
+.nextcontentinsquare{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+
+.age_content span{
+    position: absolute;
+     top: -12px;
+     padding: 0 10px;
+     background-color: #fff;
+}
+  
+textarea{
+    width: 60%;
+    padding: 4px;
+}
+button{
+    width: 80%;
+    padding: 10px;
+    background-color: green;
+    margin-top: 8px;
+}
+.textareamargin{
+    margin-top: 4px;
+}
